@@ -1,0 +1,37 @@
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box-sizing{
+    background-image: url(https://mksdmcdn-9b59.kxcdn.com/roogan/wp-content/uploads/2020/10/roogan_wa_image.jpg);
+    height: 100vh;
+    width: 100%;
+}
+.nav-first{
+    width: 50%;
+    margin: auto;
+    color: white;
+    background-color: transparent;
+    
+}
+.nav-color{
+    color: white;
+}
+.nav-login{
+    margin-right: 160px;
+}
+.btn-type{
+    float: right;
+}
+.roogan-img{
+    height: 144px;
+    width: 30px;
+}
+.btn-type{
+    margin-left: 160px;
+}
