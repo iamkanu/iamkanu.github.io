@@ -1,7 +1,21 @@
+.boxAlign{
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  border-radius: 20px;
+  padding: 10px;
+  background: #E6DADA;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #ffffff00, rgba(12, 0, 0, 0.63));  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #ffffff00, rgba(10, 0, 0, 0.719)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
 
 
-
-
+.headerBg{
+background-color: lightgray;
+width: 80%;
+margin: auto;
+}
 
 .first-logo{
     height: 56.8px;
@@ -9,18 +23,30 @@
 
 }
 .first-img{
-    background-image: url(https://i1.wp.com/static.curativeartist.com/uploads/Best-Time-to-Eat-Curative-Artist.jpg?resize=768%2C356&ssl=1)
+    background-image: url('https://i1.wp.com/static.curativeartist.com/uploads/Best-Time-to-Eat-Curative-Artist.jpg?resize=768%2C356&ssl=1')
+}
+.boximg1{
+  background-image: url('https://i1.wp.com/static.curativeartist.com/uploads/Indian-Republic-Day-2021.jpg?resize=768%2C391&ssl=1');
+  background-repeat: no-repeat;
+  background-size: cover;
 
+}
+.boximg2{
+  background-repeat: no-repeat;
+  background-image: url('https://i1.wp.com/static.curativeartist.com/uploads/Best-Time-to-Eat-Curative-Artist.jpg?resize=768%2C356&ssl=1');
+  background-size: cover;
 }
 * {
   box-sizing: border-box;
 }
 
 .column {
-  float: left;
-  width: 33.33%;
+height: 450px;
   padding: 5px;
   background-color:lightgrey;
+  position: relative;
+  border-radius: 20px;
+  margin: 20px;
 }
 .white{
   color: white;
