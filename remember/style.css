@@ -1,0 +1,173 @@
+
+
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.grey{
+    background-color: #F2F2F2;
+    height: 660px;
+    width: 100%;
+}
+.black{
+    height: 660px;
+    width: 100%;
+    background-color: #20272E;
+
+}
+.blue{
+  background-color:   #017AF3;
+  width: 200px;
+  height: 350px;
+  position: relative;
+  left: 5px;
+  bottom: 40px;
+}
+.white{
+    height: 690px;
+    width: 100%;
+    background-color: white;
+
+}
+.small-img{
+    height: 310px;
+    position: absolute;
+    right: 0px;
+    bottom: -500px;
+    z-index: 50;
+
+   
+    
+   
+}
+.dark-blue{
+    height: 530px;
+    width: 100%;
+    background-color: #017AF3;
+    position: relative;
+    bottom: 50px;
+
+
+}
+.title{
+    height: 296px;
+    width: 328px;
+    background-color: #006BD6;;
+   border-radius: 7%;
+
+
+}
+.three-img{
+    border-radius: 80%;
+    height: 75px;
+    width: 80px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    bottom: 25px;
+}
+.centre{
+    text-align: center;
+    color: white;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    position: relative;
+    bottom: 50px;
+    
+    height: 900px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    box-sizing: border-box;
+    position: relative;
+    bottom: 30px;
+
+  }
+  .placeing{
+      position: relative;
+      top: 200px;
+      height: 100px;;
+  }
+  input[type="email"]{  
+    text-align: center; 
+} 
+input[type="text"] {  
+    text-align: right; 
+} 
+input[type="tel"] {  
+    text-align: left; 
+} 
+body { 
+    text-align:center; 
+} 
+.position{
+    position: relative;
+    top: 180px;
+}
+.upper{
+    position: relative;
+bottom: 30px;
+
+}
+
+
+.primary-cta {
+    background-color: #0078F3;
+    color: white;
+    text-decoration: none;
+    padding: 0.6em 1.3em;
+    font-size: 1.4em;
+    border-radius: 5em;
+    font-weight: bold;
+    display: inline-block;
+}
+.white{
+    color: white;
+}
+.text{
+    position: relative;
+    bottom: 4px;
+    color: #0078F3;
+}
+.input{
+    position: relative;
+    right: 35px;
+}
+.omg{
+    position: relative;
+    right: 25px;
+}
+ 
+  
+  
+  
+  .place{
+    height:40px;
+    width:500px;
+    position: relative;
+    left: 185px;;
+  }
+  .last{
+      width: 500px;
+      position: relative;
+      left: 180px;
+  }
+  .weight{
+
+font-weight: 900;
+
+  }
+  p.thick { 
+    font-weight: bolder;
+   }
