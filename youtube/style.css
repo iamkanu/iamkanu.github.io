@@ -22,6 +22,38 @@
   height: 26px;
   width: 26px;
 }
+.details-small-img {
+  height: 50px;
+  width: 50px;
+}
+.small {
+  height: 94px;
+  width: 168px;
+}
+
+.details-1col {
+  width: 75%;
+  float: left;
+  background-color: white;
+  padding: 10px;
+  height: 960px;
+}
+
+.centre-dt-1 {
+  height: 800px;
+  width: 90%;
+  background-color: darkblue;
+  margin-left: 70px;
+}
+.details-2col {
+  float: left;
+  width: 25%;
+  background-color: white;
+
+  height: 960px;
+  position: absolute;
+  right: 50px;
+}
 .img-size {
   height: 201px;
   width: 359px;
@@ -118,7 +150,7 @@
 
 .background {
   height: 300px;
-  width: 1510px;
+  width: 80%;
   background-repeat: no-repeat;
   background-image: url("./image/youtube-background.png");
   background-size: cover;
