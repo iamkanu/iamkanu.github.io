@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>js practise</title>
+  </head>
+  <body>
+    <h1 id="name">Calculator</h1>
+    <input type="text" id="fbox" />
+
+    <input type="text" id="sbox" />
+    <button id="click" onclick="add()">add</button>
+    <div class="container">
+      <button id="click" onclick="changeName()">click me</button>
+    </div>
+    <h2 style="color: brown;">
+      This is fillups (If you want to get the answer so click the button)
+    </h2>
+    <h4 style="color: red;" id="fillups">Nidhi is ---------- to school</h4>
+    <button onclick="button()">click</button>
+    <br />
+    <br />
+    <br />
+    <div
+      id="black"
+      style="height: 500px;width:500px;background-color:black;"
+    ></div>
+    <br />
+
+    <button onclick="r('red')" style="color: red;">Red</button>
+    <button onclick="r('Blue')" style="color:blue;">Blue</button>
+    <button onclick="r('Green')" style="color:green;">Green</button>
+    <button onclick="r('pink')" style="color:darkmagenta;">Magenta</button>
+    <script src="index.js"></script>
+  </body>
+
+  <script>
+    function r(kanu) {
+      document.getElementById("black").style.backgroundColor = kanu;
+      if (kanu == "red") {
+        document.getElementById("black").style.height = "900px";
+      } else {
+        document.getElementById("black").style.height = "500px";
+      }
+    }
+
+    function changeName() {
+      // alert("click");
+      document.getElementById("name").innerHTML = "my name is nidhi";
+    }
+    function add() {
+      // alert("mdch");
+      let n1 = document.getElementById("fbox").value;
+      console.log(n1);
+
+      let n2 = document.getElementById("sbox").value;
+
+      let total = parseInt(n1) + parseInt(n2);
+      document.getElementById("name").innerHTML = total;
+    }
+  </script>
+</html>
